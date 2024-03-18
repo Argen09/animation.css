@@ -1,0 +1,32 @@
+body{
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://abrakadabra.fun/uploads/posts/2022-02/1644539906_2-abrakadabra-fun-p-doroga-vid-sboku-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 300px;
+    height: 120px;
+    /* border: 2px solid; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    background-image: url(https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1150/https://www.st-agnes.manchester.sch.uk/wp-content/uploads/2018/11/car-gif-png-1.gif);
+    /* box-shadow: 0 0 15px 5px red; */
+    margin-top: 500px;
+    position: relative;
+    animation: mymove 4s infinite;
+    transition: 2s;
+}
+
+@keyframes mymove{
+    0%{
+        left: 0px;
+    }
+    70% {
+        left: 1000px;
+
+    }
+}
